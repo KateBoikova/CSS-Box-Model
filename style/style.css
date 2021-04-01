@@ -16,7 +16,6 @@ header {
 .header__overlay {
     width: 100%;
     height: 450px;
-    /* position: center; */
     background-image: url(../img/code.png);
     background-size: cover;
     background-color: #333333;
