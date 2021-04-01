@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #333333;
+}
+
+header {
+    color: #ffffff;
+    height: 450px;
+    width: 100%;
+
+}
+
+.header__overlay {
+    width: 100%;
+    height: 450px;
+    /* position: center; */
+    background-image: url(../img/code.png);
+    background-size: cover;
+    background-color: #333333;
+    z-index: -1;
+    opacity: 0.4;
+    position: absolute;
+ } 
+
+.header-h1 {
+    padding-top: 100px;
+    margin: 0;
+    z-index: 3;
+}
+
+.header-p {
+    padding: 0 25%;
+    z-index: 3;
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px 35px;
+    border: 1px solid grey;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.section-1 {
+    background-color: #eaeaea;
+
+}
+
+.section-1__h2 {
+    margin-top: 0;
+    padding: 30px 0;
+    color: #333333;
+}
+
+.section-1__p {
+    column-count: 2;
+    padding: 0 25% 45px;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+.section-2 {
+    background-color: #333333;
+    height: 500px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+}
+
+li {
+    display: inline-block;
+    width: 250px;
+    height: 425px;
+    background-color: #ffffff;
+    margin: 35px 10px;
+    color: #333333;
+}
+
+.img {
+    display: inline-block;
+}
+
+.section-2__item {
+    box-sizing: content-box;
+    padding: 15px;
+}
+
+.section-3 {
+    color: #333333;
+    padding: 30px 20%;
+    background-color: #ffffff;
+}
+
+.section-4 {
+    color: #ffffff;
+}
+
+.section-4__h2 {
+    margin: 50px;
+}
+.section-4__contacts {
+    background-color: #3e91d6;
+    width: 50%;
+    height: 300px;
+    margin: 0;
+    float: left;
+}
+
+.section-4__about {
+    background-color: #333333;
+    width: 50%;
+    margin: 0;
+    height: 300px;
+    float: right;
+}
+
+.section-4__p {
+    padding: 0 30px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+}
+
+.footer__a {
+    text-decoration: none;
+    color: #3e91d6;
+    position: absolute;
+    margin-bottom: 0;
+}
+
+.footer__left {
+    float: left;
+    background-color: #000000;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+.footer__right {
+    float: right;
+    background-color: #000000;
+    margin-right: 25%;  
+    padding: 20px;
+}
